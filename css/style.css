@@ -1,0 +1,119 @@
+body{
+  background-color: #CCC;
+  background-image : url("http://subtlepatterns.com/patterns/symphony.png");
+}
+
+h1{
+  font: bold 2em "Futura", sans-serif;
+  text-align: center;
+}
+
+main>p{
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.entry {
+  background-color: rgba(0, 0, 0, 0.3);
+  /*background-image : url("http://subtlepatterns.com/patterns/dark_embroidery.png");*/
+  border-radius: .5em;
+  padding: 1em;
+  margin: .5em 4em;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.chart {
+  background-color: #222;
+  border-radius: 1em;
+  border:  1em solid #ddd;
+  box-shadow: .1em .2em .6em rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  margin: 1em;
+  min-width: 20em;
+  height: 13em;
+}
+
+.answer {
+  background-color: #ddd;
+  border-radius: .2em;
+  rgba(0, 0, 0, 0.2);
+  font:  1em "Futura", sans-serif;
+  padding: 1em;
+  margin: 1em;
+}
+
+.question {
+  font: .8em "Didot", serif;
+  font-variant: small-caps;
+  margin: 1em;
+}
+
+.chart>span{
+  justify-content: space-between;
+}
+
+/* The style for our bars in the bar plot */
+.chart>div{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin: .1em 0 .1em 0;
+}
+
+.label{
+   font: 0.8em "Futura", sans-serif;
+  color: #fff;
+}
+
+.right{
+   float: right;
+}
+
+.bar {
+  border-radius: .1em;
+  color: #fff;
+  font: bold 0.8em "Open Sans", sans-serif;
+  padding: 0 0 0 .3em;
+}
+
+.count {
+  /*border: .1em solid #888;*/
+  border-radius: 1em;
+  padding: .1em;
+  margin: 0 0 0 2em;
+  color: #fff;
+  font: bold 0.8em "Open Sans", sans-serif;
+  text-align: center;
+  width: 2em;
+}
+
+/* RGB */
+ .Visualization{
+   background-color: #0aa;
+ }
+ .Statistics{
+   background-color: #a0a;
+ }
+ .Mathematics{
+   background-color: #a00;
+ }
+ .Artistic{
+   background-color: #0a0;
+ }
+ .Savvy{
+   background-color: #05a;
+   }
+ .Programming{
+   background-color: #a6c;
+ }
+ .Graphics{
+   background-color: #52f;
+ }
+ .Interaction{
+   background-color: #28F;
+ }
+ .UX Evaluation{
+   background-color: #9b0;
+ }
