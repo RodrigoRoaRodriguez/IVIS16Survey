@@ -30,7 +30,7 @@ d3.select("#sort").on("change", function() {
   console.log(this.value);
   update(this.value);});
 
-// update(d3.select("#sort").attr("value"));
+update(d3.select("#sort").node().value);
 
 function update(statistic){
   // Fetch the data from the csv file
