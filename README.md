@@ -1,6 +1,14 @@
 # IVIS16Survey
+### Repository
+There is a GitHub repository for this project at:
+
+ <https://github.com/RodrigoRoaRodriguez/IVIS16Survey/>
+
+
 ### Live demo
-You can check the live demo at <http://rodrigoroarodriguez.github.io/IVIS16Survey/>
+You can check the live demo at:
+
+<http://rodrigoroarodriguez.github.io/IVIS16Survey/>
 
 ### What is this?
 The first practical assignment in the course IVIS16 is visualize data from a personal survey in order to form project-groups.

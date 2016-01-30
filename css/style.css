@@ -1,6 +1,8 @@
 body{
   background-color: #CCC;
-  background-image : url("http://subtlepatterns.com/patterns/symphony.png");
+  /* Image source: sublepatterns.com */
+  background-image : url("../img/symphony.png");
+  background-repeat: repeat;
 }
 
 h1{
@@ -11,12 +13,11 @@ h1{
 main>p{
   margin: 0 auto;
   text-align: center;
-  
+
 }
 
 .entry {
   background-color: rgba(0, 0, 0, 0.3);
-  /*background-image : url("http://subtlepatterns.com/patterns/dark_embroidery.png");*/
   border-radius: .5em;
   padding: 1em;
   margin: .5em 4em;
